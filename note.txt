@@ -267,4 +267,3 @@ link to learn flexbox : https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
    shrink means => become smaller
 
-25. 
