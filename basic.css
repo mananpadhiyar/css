@@ -1,0 +1,32 @@
+/* external css */
+
+/*  
+    display : inline => doesn't support height and width
+    display : block => doesn't support next to each other 
+ 
+    display : inline-block =>  that why use here combination of inline and block
+    it will support height and width and also there inline means next to each other
+
+    but but but .... there is problem as you can see , inline-block created 
+    unwanted space and we dont need that , so instead of using inline-block
+    we can use here (flex-box) => flexible
+
+    1rem = 16px
+
+*/
+
+.perfect-square {
+  display: inline-block; /* cause div is by default block  level
+                                             element and  we need inline */
+  height: 200px;
+  width: 200px;
+  background-color: brown;
+}
+
+.bg-brown {
+  background-color: brown;
+}
+
+.bg-green {
+  background-color: green;
+}

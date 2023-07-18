@@ -1,0 +1,270 @@
+1. what is css ?
+=> CSS stands for Cascading Style Sheets
+=> CSS describes how HTML elements are to be displayed on screen,in other media
+=> CSS is used to define styles for your web pages, including the design, 
+   layout and variations in display for different devices and screen sizes.
+
+2. How can you integrate CSS with your web page?
+
+ #1 inline-css : it is method in which css is added in an HTML tag. it is used to apply 
+                unique style in html elements
+
+ #2 Internal-css : It is a method in which CSS is added in the <head> of HTML doc.
+                   It is used to provide a unique style to a single HTML document.
+               
+ #3 External-css : It is a method in which CSS is added in a separate file. This file is
+                   included in the <head> of the HTML file with the help of the <link>
+                   element. It is used to apply a certain style to multiple pages 
+                    
+3. What is a CSS selector?
+
+=> CSS selectors are a set of rules that can identify the HTML elements to apply a particular
+CSS.
+
+=> There are several types of selectors in CSS. Some of them are :
+  • Element Selector
+  • Id Selector
+  • Class Selector
+  • Universal Selector
+  • Group Selector 
+
+4. What is the use of CSS Opacity?
+
+=> The CSS opacity is a property used to specify the transparency of an HTML element. In
+simpler words, it specifies the clarity of an image. 
+ For example:
+ opacity: 0.4;
+
+5. Name the property for controlling the image repetition of the background.
+
+=> The background-repeat property is used to repeat the background image horizontally and
+vertically. Some images are repeated only horizontally or vertically.
+• background: white url('good-morning.jpg');
+• background-repeat: no-repeat;
+• background-attachment: fixed;
+• background-position: center
+
+6. What is the CSS Box model and what are its elements?
+
+=> The CSS box model is used to define the design and layout of HTML elements. As per this
+   model, every content (like text, images, etc.) is considered in a box with certain 
+   properties
+
+=> Some of the important properties are:
+
+• Margin: It is a space outside the border and can be set separately for top, bottom, right,
+and left.
+
+• Border: It is represented by lines around the content and can have several styles and
+colors.
+
+• Padding: It is a space between the border and the content. It can be referred to as the
+inner space of the border. It can be set separately for the top, bottom, right, and left
+
+7. What is the float property of CSS?
+=> the CSS float property is used to move the image to either right or left, along with 
+   the text to be wrapped around it. It does not change the property of the elements 
+   used before it.
+
+8. What is the purpose of the z-index and how is it used ?
+
+=> The z-index is used to specify the stack order of positioned elements that may 
+   overlap one another. Its default value is zero and can have a positive or 
+   negative number.
+
+=> A higher z index represents that the element will be stacked above than a lower z-Index.
+
+1. Auto: Sets the stack order equal to its parents.
+2. Number: Orders the stack order.
+3. Initial: is used to set a CSS property to its default value.
+4. Inherit: Inherits this property from its parent element.
+
+
+9. Explain the difference between visibility: hidden and display: none ?
+
+=> visibility: hidden is used to hide the element, but it affects the layout of the document
+   because it occupies space.
+
+=> display: none is also used to hide the element, but it will not affect the layout 
+   of the document but doesn’t occupy space.
+
+10. What are the different media types supported by CSS? (not mandodary)
+
+=> Including screen, there are four types of @media properties:
+    
+  • all – for all media type devices
+  • print – for printers
+  • speech – for screen readers that “reads” the page out loud
+  • screen – for computer screens, tablets, smart-phones, etc
+
+11. What are the different units used in CSS?
+
+=> 
+#1 Em : Relative to the font-size of the element (2em means two times the size of
+the current font)✅
+
+#2 Ex : Relative to the x-height of the current font (rarely used)
+
+#3 Ch : Relative to the width of the “0” (zero)
+
+#4 Rem : Relative to font-size of the root element (html)✅
+
+#5 Vw : Relative to 1% of the width of the viewport*✅
+
+#6 Vh :  Relative to 1% of the height of the viewport*✅
+
+#7 Vmin : Relative to 1% of viewport’s* smaller dimension✅
+
+#8 Vmax : Relative to 1% of viewport’s* larger dimension✅
+
+#9 % :  Relative to the parent element✅
+
+#10 CM :  Centimetres
+
+#11 MM :  Millimetres
+
+#12 IN : inches (1in = 96px = 2.54cm)✅
+
+#13 PX : pixels (1px = 1/96th of 1in)✅
+
+-----------------------------------------------------------------------------------------------
+
+12. What is the use of box-shadow in CSS?
+
+=> The box-shadow CSS property is used to add shadow effects around the frame of any
+element. You can set multiple effects, but each effect will be separated by a comma.
+It is described by horizontal and vertical offsets relative to the element, blur, 
+spread radii, and color. For example: box-shadow: 10px 5px 5px red;
+
+13. How would you style an image or element to have rounded corners?
+
+=> border-radius property can be used to add rounded corners to an image. 50% will make the
+image circular. For example: border-radius: 50%
+
+14. How case-sensitive is CSS?
+
+=> CSS is not case-sensitive, but the URLs of images and font families are case-sensitive.
+
+15. What is SVG?
+
+=> SVG stands for Scalable Vector Graphics. It is used to define vector-based graphics for 
+   the Web because it defines the graphics in XML format. In these files, every element
+ and every attribute can be animated
+
+16. Explain what elements will match each of the following CSS selectors?
+
+#1. div, p - Selects all <div> elements and all <p> elements
+
+#2. div p - Selects all <p> elements that are anywhere inside a <div> element
+
+#3. div > p - Selects all <p> elements where the immediate parent is a <div> element
+
+#4. div + p - Selects all <p> elements that are placed immediately after a <div> element
+
+#5. div ~ p - Selects all <p> elements that are anywhere preceded by a <div> element
+
+17. What is Responsive Web design?
+
+=> Responsive Web design is the method in which design and development can reply to the
+user's activities and situation, such as the size of the screen, the platform, and the
+orientation. It can be achieved with the combination of flexible layouts and grids,
+images, and intellectual use of CSS media queries
+
+18. what is flex box ?
+
+=> Flexbox is a one-dimensional layout method for arranging items in rows or columns.
+
+link to learn flexbox : https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+ 
+
+19. what is difference betweeen flexbox and grid ?
+
+=> flexbox was designed for layout in one dimension - either a row or a column. Grid 
+   was designed for two-dimensional layout - rows, and columns at the same time.
+
+20. What is the CSS position property?
+
+=> The CSS position property defines the position of an element in a document.This 
+   property works with the left, right, top, bottom and z-index properties to 
+   determine the final position of an element on a page.
+
+   Static : This is the default value for elements. The element is positioned according 
+   to the normal flow of the document. The left, right, top, bottom and z-index 
+   properties do not affect an element with position: static.
+
+   Relative : Elements with position: relative remain in the normal flow of the document.
+   But, unlike static elements, the left, right, top, bottom and z-index properties 
+   affect the position of the element. here we can use that one.
+
+   Absolute : Elements with position: absolute are positioned relative to their parent
+   elements. In this case, the element is removed from the normal document flow.The 
+   other elements will behave as if that element is not in the document. No spaces
+   is created for the element in the  page layout. The values of left, top, bottom
+   and right determine the final position of the element.
+
+   One thing to note is that an element with position: absolute is positioned relative
+   to its closest positioned ancestor. That means that the parent element has to have 
+   a position value other than position: static.
+
+   Fixed : Fixed position elements are similar to absolutely positioned elements. They are
+   also removed from the normal flow of the document
+   One thing to note is that fixed elements are not affected by scrolling. They always 
+   stay in the same position on the screen.
+
+   Sticky: position: sticky is a mix of position: relative and position: fixed. It acts
+   like a relatively positioned element until a certain scroll point and then it acts 
+   like a fixed element. 
+   
+
+21. What are Pseudo-classes? 
+
+   => keyword added to a selector that specifies special state
+       of that selected element
+       
+   => For example, it can be used to Style an element when a user mouses 
+      over it Style visited and unvisited links differently Style an
+      element when it gets focus
+
+22. what is pesudo element ? 
+   => used to style specific part of an element
+
+      selector::first-letter
+
+      h1::first-letter
+
+
+
+23. why we set width: 100% and height: 100vh in starting container  ?
+
+=> width: 100% 
+   take entire width that available in screen to its parent element
+
+=> height: 100vh
+   100VH would represent 100% of the viewport's height, or the full height 
+   of the screen
+
+ #why we do not use width: 100vh ?
+
+ => vw is depend on operating system browser you using
+ => issue width that if we use that it will add horizontally scrolling
+ => there is always some extra space there bydefault in any browser
+
+ NOTE: here do not use vh instead use svh 
+ why svh ? small viewport height
+ it is also fit to mobile viewport 
+
+ see this video : https://www.youtube.com/watch?v=veEqYQlfNx8&t=301s
+                  2:00
+                  
+24. what is use of box-sizing: border-box ?
+
+=> The default value for box-sizing is content-box. If you set box-sizing value to 
+   border-box the width of the box remains same even if you add padding, and the
+   content inside the box shrink accordingly.
+
+   it will not increase the size of element by adding padding if we use box-sizing 
+   border-box
+
+   shrink means => become smaller
+
+25. 

@@ -1,0 +1,17 @@
+css not programming language, it is declartive language 
+need to understand declartion and rule to learn css
+
+box model
+
+margin 
+padding
+border 
+
+position
+display
+flexbox
+animation
+grid
+
+
+be a good a ppc pexel perfect copy s

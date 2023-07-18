@@ -1,0 +1,84 @@
+
+/*  flex-wrap : wrap => when you have one+ chid in parent element and you want
+  responsive box than you just need to using flex-wrap for that. it will adjust size
+  with respective to the screensize  
+  it will not decrease orignal size and by that it will adjust size
+   
+  gap : 8px;
+ it will create gap between all of child 
+
+ justify content => for moving element horizontally
+ align item => for moving element vertically 
+  
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.flex-parent {
+    display: flex;                                     
+    flex-wrap: wrap;                
+     gap: 8px;
+     background-color:lightslategray;
+     height: 500px;
+     justify-content:space-evenly;
+     align-items:center;
+    /* flex-direction: column;      */
+     /* row => horizontally and colum => vertically */
+}
+
+
+.flex-child {
+
+    height: 200px;
+    width: 200px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+
+}
+
+.bg-brown{
+    background-color: brown;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+/* box property */
+
+.box {
+     
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: darkslategray;
+
+}
+
+.flex-box-chid {
+
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+
+.flex-box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}

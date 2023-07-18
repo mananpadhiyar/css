@@ -1,0 +1,149 @@
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: tomato;
+}
+
+/* hold down the mouse */
+a:active {
+  color: cadetblue;
+}
+
+/* button {
+  padding: 10px 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+button:active {
+  background-color: lightgreen;
+} */
+
+ul > li {
+  font-size: 30px;
+}
+
+div {
+  width: 350px;
+  border: 2px solid black;
+}
+
+/* this list items are sibilings */
+/* 
+li:nth-child(1) {
+  background-color: yellowgreen;
+} */
+
+/* li:nth-child(even) {
+  background-color: skyblue;
+}
+
+li:nth-child(odd) {
+  background-color: powderblue;
+} */
+
+/* li:nth-child(4n) {
+  background-color: yellow;
+} */
+
+.info {
+  font-size: 32px;
+}
+
+.info::first-letter {
+  font-size: 55px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.info::first-line {
+  color: yellowgreen;
+}
+
+#listItem__1 > li::before {
+  content: "☑️";
+}
+
+#css::after {
+  content: "⬅️";
+}
+
+#listItem__1 > li::marker {
+  color: grey;
+}
+
+p::selection {
+  color: white;
+  background-color: black;
+}
+
+ol > li {
+  font-size: 36px;
+  display: inline-block;
+  margin: 0px 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+ol > li::after {
+  content: "";
+  height: 5px;
+  width: 0%;
+  position: absolute;
+  background-color: rgb(38, 137, 104);
+  left: 0;
+  bottom: -7px;
+  transition: 0.5s;
+}
+
+ol > li:hover::after {
+  width: 100%;
+}
+
+.animation__btn {
+  font-size: 28px;
+  padding: 13px 13px;
+  background: transparent;
+  border-radius: 25px;
+  border: 3px solid rgb(38, 137, 104);
+  position: relative;
+  overflow: hidden;
+}
+
+.animation__btn > span {
+  background-color: rgb(38, 137, 104);
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.animation__btn:hover > span {
+  width: 100%;
+}
+
+.animation__btn:hover {
+  border: none;
+}
+
+.pg {
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}

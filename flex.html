@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex-box</title>
+    <link rel="stylesheet" href="flex.css" />
+  </head>
+  <body>
+    <section class="flex-parent">
+      <article class="flex-child bg-red"></article>
+      <article class="flex-child bg-green"></article>
+      <article class="flex-child bg-brown"></article>
+      <article class="flex-child bg-yellow"></article>
+    </section>
+
+    <!-- 
+          how many property consist box model? :
+        width => for horizontal spacing
+        hight => for vertical spacing
+        margin => space surrounding to element
+        padding => create space inside of element
+        border => for adding surrounding line to element
+     -->
+
+    <div class="box"></div>
+
+    <!-- how to center a div -->
+    <div class="flex-box">
+      <article class="flex-box-chid"></article>
+    </div>
+
+    <!-- 
+        note : when you use flex-direction : colums then it work like this.
+         
+        flex-direction : row (default)
+        justify-content : horizontally (left to right)
+        align-items : vertically (top to bottom)
+
+        but in flex-direction : colums it will work opposite
+        flex-direction : colums
+        justify-content : vertically 
+        align-items : horizontally
+     -->
+  </body>
+</html>
